@@ -1,0 +1,139 @@
+*{
+    
+    margin:0;
+    padding:0;
+    
+}
+#canvas{
+    
+    width: 800px;
+    height: 600px;
+    background-color: moccasin;
+    border:1px solid black;
+    
+    
+}
+.container{
+    background-color: aqua;
+    flex:1;
+    outline-color: purple;
+    
+
+}
+#main{
+    display: flex;
+    
+    
+    
+    height: 100%;
+
+}
+#profile{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  border: 2px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  
+    
+}
+.profilePic{
+    flex:1;
+    
+
+    
+}
+
+#identity{
+    flex:1;
+    display:flex;
+    align-items: center;
+    border: 2px solid black;
+    border-right: 0px;
+    
+}
+#bars{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.bar{
+    flex:1;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5%;
+    outline: 0px;
+    
+
+}
+
+.health{
+    background-color: red;
+}
+.energy{
+    background-color: greenyellow;
+}
+.aether{
+    background-color: blue;
+}
+#stats{
+    flex:3;
+
+}
+#skills{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 2px solid black;
+
+
+}
+
+.skill{
+    width: 100%;
+    min-height: 100px;
+    height: 20%;
+    list-style-type: none;
+    background-color: brown;
+    color: white;
+    
+}
+
+#nav-bar{
+    background-color: black;
+    height: 10%;
+    outline-color: blue;
+    display: flex;
+    align-items: center;
+    
+}
+
+#nav-links{
+    color: white;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex:1;
+    
+    
+    
+}
+
+#nav-links li{
+    list-style-type: none;
+    
+
+    
+}
+/*a bit redundant but the first nav links displays the links, and this one modifies their spacing*/
+
+#home{
+    
+    font-size: larger;
+}
